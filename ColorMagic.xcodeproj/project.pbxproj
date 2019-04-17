@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F675D74F2266C78E005A8ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675D74E2266C78E005A8ED4 /* AppDelegate.swift */; };
-		F675D7512266C78E005A8ED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675D7502266C78E005A8ED4 /* ViewController.swift */; };
+		F675D7512266C78E005A8ED4 /* ColorPresenterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675D7502266C78E005A8ED4 /* ColorPresenterVC.swift */; };
 		F675D7542266C78E005A8ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F675D7522266C78E005A8ED4 /* Main.storyboard */; };
 		F675D7562266C78F005A8ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F675D7552266C78F005A8ED4 /* Assets.xcassets */; };
 		F675D7592266C78F005A8ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F675D7572266C78F005A8ED4 /* LaunchScreen.storyboard */; };
+		F675D7612266CB06005A8ED4 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675D7602266CB06005A8ED4 /* ColorPickerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F675D74B2266C78E005A8ED4 /* ColorMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F675D74E2266C78E005A8ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F675D7502266C78E005A8ED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F675D7502266C78E005A8ED4 /* ColorPresenterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenterVC.swift; sourceTree = "<group>"; };
 		F675D7532266C78E005A8ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F675D7552266C78F005A8ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F675D7582266C78F005A8ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F675D75A2266C78F005A8ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F675D7602266CB06005A8ED4 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				F675D74E2266C78E005A8ED4 /* AppDelegate.swift */,
-				F675D7502266C78E005A8ED4 /* ViewController.swift */,
+				F675D7502266C78E005A8ED4 /* ColorPresenterVC.swift */,
 				F675D7522266C78E005A8ED4 /* Main.storyboard */,
 				F675D7552266C78F005A8ED4 /* Assets.xcassets */,
 				F675D7572266C78F005A8ED4 /* LaunchScreen.storyboard */,
 				F675D75A2266C78F005A8ED4 /* Info.plist */,
+				F675D7602266CB06005A8ED4 /* ColorPickerVC.swift */,
 			);
 			path = ColorMagic;
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F675D7512266C78E005A8ED4 /* ViewController.swift in Sources */,
+				F675D7512266C78E005A8ED4 /* ColorPresenterVC.swift in Sources */,
 				F675D74F2266C78E005A8ED4 /* AppDelegate.swift in Sources */,
+				F675D7612266CB06005A8ED4 /* ColorPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
