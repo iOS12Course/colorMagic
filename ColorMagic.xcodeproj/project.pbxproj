@@ -13,6 +13,7 @@
 		F675D7562266C78F005A8ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F675D7552266C78F005A8ED4 /* Assets.xcassets */; };
 		F675D7592266C78F005A8ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F675D7572266C78F005A8ED4 /* LaunchScreen.storyboard */; };
 		F675D7612266CB06005A8ED4 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675D7602266CB06005A8ED4 /* ColorPickerVC.swift */; };
+		F675D7632266CC8E005A8ED4 /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F675D7622266CC8E005A8ED4 /* ColorTransferDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F675D7582266C78F005A8ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F675D75A2266C78F005A8ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F675D7602266CB06005A8ED4 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		F675D7622266CC8E005A8ED4 /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F675D7572266C78F005A8ED4 /* LaunchScreen.storyboard */,
 				F675D75A2266C78F005A8ED4 /* Info.plist */,
 				F675D7602266CB06005A8ED4 /* ColorPickerVC.swift */,
+				F675D7622266CC8E005A8ED4 /* ColorTransferDelegate.swift */,
 			);
 			path = ColorMagic;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F675D7512266C78E005A8ED4 /* ColorPresenterVC.swift in Sources */,
+				F675D7632266CC8E005A8ED4 /* ColorTransferDelegate.swift in Sources */,
 				F675D74F2266C78E005A8ED4 /* AppDelegate.swift in Sources */,
 				F675D7612266CB06005A8ED4 /* ColorPickerVC.swift in Sources */,
 			);

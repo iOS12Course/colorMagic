@@ -40,7 +40,7 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="0yX-tw-TH2">
                             <color key="tintColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="GMS-8B-zKR" kind="show" id="QNz-l9-3et"/>
+                                <segue destination="GMS-8B-zKR" kind="show" identifier="presentColorPickerVC" id="QNz-l9-3et"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
